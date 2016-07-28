@@ -1,2 +1,2 @@
 # ofn-docker
-Dockerfile to create a OFN development enviroment
+Dockerfile to create a OFN development environment
