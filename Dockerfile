@@ -32,6 +32,7 @@ RUN /bin/bash -l -c "rvm requirements"
 RUN /bin/bash -l -c "rvm install 2.1.5"
 RUN /bin/bash -l -c "gem install bundler --no-ri --no-rdoc"
 
+#Testing postgres configuration
 USER postgres
 
 RUN    /etc/init.d/postgresql start &&\
